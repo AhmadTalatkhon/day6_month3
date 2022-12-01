@@ -1,13 +1,12 @@
-// let money=parseInt(document)
-let money=document.querySelector(".oylik")
-let sum=parseInt(money.innerHTML)
+let income=document.querySelector(".oylik")
+let dollar=parseInt(income.innerHTML)
 let k=+prompt("Qancha oylik oldiz")
-if(k==sum){
+if(k==dollar){
     console.log(`Oylikni to\'liq olibsiz`)
 }
-else if(k<sum){
-console.log(`Oylikni ${sum-k}$ kam olibsiz`)
+else if(k<dollar){
+console.log(`Oylikni ${dollar-k}$ kam olibsiz`)
 }
 else{
-    console.log(`Oylikni ${k-sum}$ ko\'p olibsiz`)
+    console.log(`Oylikni ${k-dollar}$ ko\'p olibsiz`)
 }
